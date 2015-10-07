@@ -40,6 +40,7 @@ namespace Histogram
                                     randomD = r.NextDouble();
                                     freqCounter(randomD);
                                 }
+                                readCounter();
                             }
                             else if (choice == "cumulative")
                             {
@@ -52,6 +53,7 @@ namespace Histogram
                                     }
                                     cumCounter(cumI);
                                 }
+                                readCounter();
                             }
                             else
                             {
